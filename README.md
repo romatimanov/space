@@ -6,6 +6,10 @@ The project demonstrates smooth animations, interactive UI elements and a clean 
 Live Demo
 https://space-one-drab.vercel.app/
 
+## Demo
+
+![Animation](./screenshots/animation.gif)
+
 ---
 
 ## Overview
