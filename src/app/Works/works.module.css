@@ -1,0 +1,73 @@
+/* works.module.css */
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+}
+
+.imageContainer {
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.activeImage {
+  transform: translateX(0) scale(2);
+  z-index: 2;
+}
+
+.leftImage {
+  transform: translateX(-150%) scale(1);
+  z-index: 1;
+  margin-right: 70px;
+}
+
+.rightImage {
+  transform: translateX(150%) scale(1);
+  z-index: 1;
+  margin-left: 70px;
+}
+@media (max-width: 1024px) {
+  .rightImage {
+    display: none;
+  }
+  .leftImage {
+    display: none;
+  }
+}
+.buttonPrev,
+.buttonNext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: #282828;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.buttonPrev {
+  position: absolute;
+  left: 10px;
+}
+
+.buttonNext {
+  position: absolute;
+  right: 10px;
+}

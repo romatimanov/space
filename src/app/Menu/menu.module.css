@@ -1,0 +1,14 @@
+.itemActive {
+  @apply relative z-10;
+}
+
+.itemActive::before {
+  content: "";
+  @apply absolute top-6 left-0 h-5 w-full bg-blue-800;
+  z-index: 0;
+}
+.itemActive::after {
+  content: "";
+  @apply absolute top-7 left-0 h-4 w-full bg-blue-800;
+  z-index: 10;
+}

@@ -1,0 +1,51 @@
+.nav {
+  @apply absolute top-10 left-0;
+  height: 85%;
+  z-index: 50;
+}
+
+.navList {
+  @apply relative pl-4 flex justify-between flex-col gap-10 before:absolute before:top-0 before:left-0 before:h-full before:w-0.5 before:bg-zinc-500;
+  height: 85%;
+}
+
+.item {
+  @apply cursor-pointer relative list-disc;
+}
+
+.itemIsActive {
+  @apply text-blue-500 z-10;
+}
+.test {
+  color: white;
+}
+.item::before {
+  content: "";
+  position: absolute;
+  left: -3rem;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  transition: all 0.3s;
+}
+
+.item0::before {
+  content: "01";
+}
+
+.item1::before {
+  content: "02";
+}
+
+.item2::before {
+  content: "03";
+}
+
+.item3::before {
+  content: "04";
+}
+
+.item4::before {
+  content: "05";
+}

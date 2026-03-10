@@ -1,0 +1,60 @@
+.aboutTitle::before {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: 260px;
+  width: 30px;
+  height: 30px;
+  background-color: #0f33ff;
+  border-radius: 50%;
+}
+.aboutTitle::after {
+  content: "";
+  position: absolute;
+  top: 310px;
+  left: 235px;
+  width: 10px;
+  height: 10px;
+  background-color: #0f33ff;
+}
+
+.aboutBanner::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+  border: 5px solid #0f33ff;
+}
+.aboutBanner::after {
+  content: "";
+  position: absolute;
+  top: 75px;
+  left: 400px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: #0f33ff;
+}
+.aboutImage {
+  position: relative;
+  cursor: pointer;
+  width: 170px;
+  height: 95px;
+  outline: 6px solid #0f33ff;
+  z-index: 10;
+}
+
+.aboutImage h3 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: all 0.3s ease;
+}
+
+.aboutImage:hover h3 {
+  bottom: -20px;
+}

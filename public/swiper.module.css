@@ -1,0 +1,20 @@
+.swiper-slide {
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.active {
+  width: 300px;
+  height: 300px;
+}
+
+.inactive {
+  width: 150px;
+  height: 150px;
+}
+
+.bgContent {
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}

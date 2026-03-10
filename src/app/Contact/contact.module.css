@@ -1,0 +1,11 @@
+.bgContent {
+  background-image: url("/image/contact-visual.png");
+  position: absolute;
+  top: -10%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
