@@ -70,13 +70,13 @@ Examples:
 Clone the repository
 
 ```bash
-git clone https://github.com/romatimanov/your-repository-name.git
+git clone https://github.com/romatimanov/space.git
 ```
 
 Go to project directory
 
 ```bash
-cd your-repository-name
+cd space
 ```
 
 Install dependencies
